@@ -1,0 +1,37 @@
+body {
+  font-family: 'Georgia', serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fffaf5;
+  color: #3e3e3e;
+}
+header {
+  background-color: #eed9c4;
+  padding: 1em;
+  text-align: center;
+}
+nav a {
+  margin: 0 1em;
+  color: #5e4630;
+  text-decoration: none;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+main {
+  padding: 1em;
+}
+section {
+  display: none;
+}
+section.visible {
+  display: block;
+}
+footer {
+  text-align: center;
+  background-color: #eed9c4;
+  padding: 1em;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}

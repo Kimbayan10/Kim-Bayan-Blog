@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kim Bayan</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Kim Bayan</h1>
+    <nav>
+      <a href="#" onclick="showSection('home')">Home</a>
+      <a href="#" onclick="showSection('books')">Books</a>
+      <a href="#" onclick="showSection('poems')">Daily Poems</a>
+      <a href="#" onclick="showSection('devotionals')">Daily Devotionals</a>
+      <a href="#" onclick="showSection('reviews')">Book Reviews</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="visible">
+      <h2>Welcome</h2>
+      <p>I love to write and read. I often review some books and authors as well. I'm a Christian and I write Christian devotionals and poems daily. Thank you for visiting my cozy corner!</p>
+    </section>
+
+    <section id="books">
+      <h2>Books</h2>
+      <ul>
+        <li><strong>A Man Beneath the Mask</strong> (On-going)</li>
+        <li><strong>The Chronicle of Narnia: The Queen Who Was Lost</strong> (Fan Fiction)</li>
+        <li><strong>I Lost</strong> (Not yet written)</li>
+        <li><strong>Time Hack</strong> (Done)</li>
+      </ul>
+    </section>
+
+    <section id="poems"><h2>Daily Poems</h2><div id="poem-list"></div></section>
+    <section id="devotionals"><h2>Daily Devotionals</h2><div id="devotional-list"></div></section>
+    <section id="reviews"><h2>Book Reviews</h2><div id="review-list"></div></section>
+  </main>
+
+  <footer>
+    <p>© 2025 Kim Bayan | <a href="#">My Socials</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
