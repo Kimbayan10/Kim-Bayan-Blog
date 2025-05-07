@@ -1,36 +1,5 @@
 {
-  "facebook": "https://facebook.com/yourusername",
-  "instagram": "https://instagram.com/yourusername",
-  "twitter": "https://twitter.com/yourusername",
-  "youtube": "https://youtube.com/@yourchannel",
-  "tiktok": "https://tiktok.com/@yourusername"
-}
-<div id="social-links" class="socials"></div>
-fetch('socials.json')
-  .then(response => response.json())
-  .then(data => {
-    const container = document.getElementById('social-links');
-    for (const [platform, url] of Object.entries(data)) {
-      const link = document.createElement('a');
-      link.href = url;
-      link.target = '_blank';
-      link.rel = 'noopener noreferrer';
-      link.innerText = platform.charAt(0).toUpperCase() + platform.slice(1);
-      link.style.marginRight = "15px";
-      container.appendChild(link);
-    }
-  });
-.socials a {
-  text-decoration: none;
-  font-family: 'Georgia', serif;
-  color: #4a3f35;
-  background-color: #f0ebe6;
-  padding: 6px 12px;
-  border-radius: 10px;
-  margin-right: 10px;
-  transition: background 0.3s ease;
-}
-
-.socials a:hover {
-  background-color: #e2dcd5;
+  "facebook": "https://www.facebook.com/K.SKY.MOB",
+  "instagram": "https://www.instagram.com/kmbrmndbyn/",
+  "tiktok": "https://www.tiktok.com/@kimbayan8"
 }
