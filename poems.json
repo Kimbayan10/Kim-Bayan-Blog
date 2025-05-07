@@ -1,9 +1,9 @@
 {
-  "reviews": [
+  "poems": [
     {
-      "title": "The Pilgrim's Progress – Review",
-      "date": "2025-05-04",
-      "content": "A timeless Christian allegory that still speaks today."
-    }
+      "title": "Selah in the Silence",
+      "date": "2025-05-08",
+      "content": "In moments when the world stands still,\nAnd noise gives way to calm,\nI find a whisper on the hill,\nA sacred, healing psalm.\n\nThe chaos fades, the worries cease,\nAs heaven draws in near,\nHis presence pours a quiet peace,\nThat drives away my fear.\n\nNo thunder, fire, or mighty wind—\nJust stillness in His name,\nWhere every ache begins to mend,\nAnd I am not the same.\n\nSo I will pause, and let Him speak,\nBeyond the world’s demand,\nFor in the hush, His voice I seek,\nAnd rest within His hand."
+}
   ]
 }
