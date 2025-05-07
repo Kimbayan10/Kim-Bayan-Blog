@@ -17,3 +17,17 @@ async function loadJSON(file, containerId, type) {
 loadJSON("poems.json", "poem-list", "poems");
 loadJSON("devotionals.json", "devotional-list", "devotionals");
 loadJSON("reviews.json", "review-list", "reviews");
+fetch('socials.json')
+  .then(response => response.json())
+  .then(data => {
+    const container = document.getElementById('social-links');
+    for (const [platform, url] of Object.entries(data)) {
+      const link = document.createElement('a');
+      link.href = url;
+      link.target = '_blank';
+      link.rel = 'noopener noreferrer';
+      link.innerText = platform.charAt(0).toUpperCase() + platform.slice(1);
+      link.style.marginRight = "15px";
+      container.appendChild(link);
+    }
+  });
