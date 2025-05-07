@@ -35,3 +35,17 @@ footer {
   width: 100%;
   bottom: 0;
 }
+.socials a {
+  text-decoration: none;
+  font-family: 'Georgia', serif;
+  color: #4a3f35;
+  background-color: #f0ebe6;
+  padding: 6px 12px;
+  border-radius: 10px;
+  margin-right: 10px;
+  transition: background 0.3s ease;
+}
+
+.socials a:hover {
+  background-color: #e2dcd5;
+}
